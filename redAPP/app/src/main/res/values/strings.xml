@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">redAPP</string>
+    <string name="相册">相册</string>
+    <string name="拍照">拍照</string>
+    <string name="加载模型">加载模型</string>
+    <string name="预测结果会在这里显示">预测结果会在这里显示</string>
+    <string name="预测结果">预测结果</string>
+</resources>

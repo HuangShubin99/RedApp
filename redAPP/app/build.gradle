@@ -22,9 +22,12 @@ android {
     }
 
     sourceSets{
-        main{
+        main {
             jniLibs.srcDir 'libs'
-            jni.srcDirs = []    //disable automatic ndk-build
+            jni.srcDirs = []
+            assets {
+                srcDirs 'src/main/assets', 'src/test/assets/'
+            }    //disable automatic ndk-build
         }
     }
 

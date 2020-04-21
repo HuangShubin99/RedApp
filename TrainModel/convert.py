@@ -34,7 +34,7 @@ def testLite(testimag_path):
     prob = tf.nn.softmax(output_data, axis=1)  # 各个值的概率
     pred = tf.argmax(prob, axis=1)  # 预测值 int64
     pred = tf.cast(pred, dtype=tf.int32)
-    print("predicted:", pred.numpy()[0])
+    return pred.numpy()[0]
 
 
 if __name__ == '__main__':

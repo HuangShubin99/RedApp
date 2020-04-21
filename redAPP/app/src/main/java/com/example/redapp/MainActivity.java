@@ -68,8 +68,7 @@ public class MainActivity extends AppCompatActivity {
     private BDLocationUtils bdLocationUtils = new BDLocationUtils(MainActivity.this);
 
     private static final String[] PADDLE_MODEL = {
-            "model1.tflite",
-            "model2.tflite"
+            "model.tflite",
     };
 
 
